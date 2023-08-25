@@ -35,7 +35,7 @@ else{
        console.log("todas las personas: \n")
        console.log(Personas)
        console.log("Personas mayores de edad: \n")
-    for(const personaMayor of PersonasMayores){
-       console.log("persona: " + personaMayor.nombre + ' ' + personaMayor.apellido + ' ' +  personaMayor.edad + " años")
-     }
+       for (const personaMayor of PersonasMayores){
+      console.log(`persona: ${personaMayor.nombre} ${personaMayor.apellido} ${personaMayor.edad} años`)
+   }
 }
