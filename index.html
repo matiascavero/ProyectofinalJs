@@ -8,23 +8,23 @@
 
 </head>
 <body>
-    
-   <ul>
-    <li class="paises">arge</li>
-    <li class="paises">franc</li>
-    <li class="paises">croacia</li>
-   </ul>
-
-
-
-
-
-
-
-
-    <script src="./main.js">
-     
-        
-    </script>
+    <div class="div2">
+       <h1>ingresar productos en stock</h1>
+    </div>
+    <div class="div1">
+      <form id="formulario">
+         <label>Nombre</label> <br><input id="Nombre"  type="text" > <br>
+         <label>Precio</label> <br><input id="Precio"  type="number" placeholder="$">
+         <label for="Advertencia"></label> <br>
+         <label>Gondola</label> <br> <input id="Gondola" type="number"> <br>
+         <input type="submit" value= "Enviar"> <input type="reset" value="Borrar">
+      </form> 
+    </div>
+    <ul id="lista-productos">
+    <!-- aca se colocan los li por dom js -->
+    </ul>
+<script src="./main.js"></script> 
+<!-- script de la libreria sweetalert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

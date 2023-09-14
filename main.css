@@ -1,3 +1,43 @@
+
 body{
+    background-color: rgb(116, 81, 81)/*violet*/;
+}
+
+.div1{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ 
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button{
     background-color: black;
+    color: brown;
+}
+
+#formulario{
+    font-size: 1.2em;
+}
+#lista-productos{
+    display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+ font-size: 1.1em;
+}
+li{ 
+border: 4px solid #ccc; /* Borde en los cuatro lados */
+  padding: 10px; /* Agrega un espacio interno de 10 píxeles para separar el contenido del borde */
+  margin: 5px 15px; /* Agrega un espacio externo de 5 píxeles arriba y abajo para separar los elementos <li> */
+  max-width: calc(40% - 10px); 
+  box-sizing: border-box;
+  text-align: center; 
+  
 }
