@@ -1,23 +1,22 @@
-{
-    "productos": [
-      {
-        "title": "Fideos",
-        "price": 700,
-        "gondola": "1",
-        "stock_description": "Siempre en stock"
-      },
-      {
-        "title": "Galletitas de agua",
-        "price": 600,
-        "gondola": "2",
-        "stock_description": "Siempre en stock"
-      },
-      {
-        "title": "Chocolate",
-        "price": 350,
-        "gondola": "2",
-        "stock_description": "Siempre en stock"
-      }
-    ]
+[
+  {
+    "title": "Fideos",
+    "price": 700,
+    "gondola": "1",
+    "stock_description": "Siempre en stock"
+  },
+  {
+    "title": "Galletitas de agua",
+    "price": 600,
+    "gondola": "2",
+    "stock_description": "Siempre en stock"
+  },
+  {
+    "title": "Chocolate",
+    "price": 350,
+    "gondola": "2",
+    "stock_description": "Siempre en stock"
   }
+]
+
   
