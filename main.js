@@ -63,7 +63,7 @@ window.addEventListener('load', () => {
 
 // Función para cargar productos desde el JSON y evitar duplicaciones
 function cargarProductosDesdeJSON() {
-  fetch("/productos.json")
+  fetch("productos.json")
     .then(response => response.json())
     .then(data => {
       console.log("Datos cargados desde JSON:", data);
